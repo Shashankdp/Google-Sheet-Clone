@@ -1,0 +1,18 @@
+body{
+    width: 100vw;
+}
+
+table{
+    border-collapse: collapse;
+    width: auto;
+    overflow-x: auto;    /* It gives scroll bar at below */
+}
+
+th,td{
+   border: 1px solid rgb(39, 39, 39); 
+   min-width: 80px;
+}
+
+td:focus{
+    outline: none;
+}
